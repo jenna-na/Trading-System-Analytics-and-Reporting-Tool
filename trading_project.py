@@ -24,11 +24,11 @@ engine = create_engine(connection_url) # create connection
 # print(df)
 
 def trade_system_menu():
-    """Main Menu: Trade System Menu
+    print("""Main Menu: Trade System Menu
     1) Query
     2) Export trade data"
     3) Reporting
-    4) Exit"""
+    4) Exit""")
 
 def query_menu():
     print("Query Menu")
